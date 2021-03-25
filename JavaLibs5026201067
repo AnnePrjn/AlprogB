@@ -1,0 +1,25 @@
+import javax.swing.*;
+
+public class belajarEnggres {
+    public static void main(String[] args) {
+        JOptionPane.showMessageDialog(null, "Hello! lets make a letter for your PenPal! ^^");
+        String name = JOptionPane.showInputDialog("Whats your name?");
+        String city = JOptionPane.showInputDialog("Where do you live?");
+        int age = Integer.parseInt(JOptionPane.showInputDialog("How old are you? (put a number)"));
+        String hair = JOptionPane.showInputDialog("Your hair color?");
+        String eyes = JOptionPane.showInputDialog("Your eyes color");
+        String pet = JOptionPane.showInputDialog("Cat or dog?");
+        String PetName = JOptionPane.showInputDialog("If you had a pet,what would you call it?");
+        String hobby = JOptionPane.showInputDialog("What your hobby?");
+        String weather = JOptionPane.showInputDialog("Sunny or rainy?");
+        String HotCold = JOptionPane.showInputDialog("Hot or cold?");
+        double degree = Double.parseDouble(JOptionPane.showInputDialog("what's the temperature in " + city +" right now?"));
+        JOptionPane.showMessageDialog(null, "Loading.....");
+        JOptionPane.showMessageDialog(null, "Hi Yaegar,\n \n" + "How are you? My name is " + name + " and i am from " + city + ". I am " + age + " years old. How old are you? \n"
+                + "I've got " + hair + " hair and " + eyes + " eyes. And how about you? Can you describe yourself to me?\n " +
+                "I've a " + pet + " called " + PetName + " I think my " + pet + " really cute!! " + PetName + " likes playing around with me hahaha. Have you got any pets, Yaeger? \n \n" +
+                "By the way, i like " + hobby + ". What do you like?\n \n " + "It's " + weather + " and " + HotCold + " in " + city + ". Its almost " + degree + " celcius in here. What's the weather like where you live in Jerman? \n \n"
+                + "Please write soon ^^\n \n" + "Best whishes, \n" + name);
+
+    }
+}
