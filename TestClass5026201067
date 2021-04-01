@@ -1,0 +1,14 @@
+public class TestClass5026201067 {
+    public static void main (String [] args) {
+        ComputeMethods5026201067 cm = new ComputeMethods5026201067();
+
+                double suhu = cm.fToC(100);
+                System.out.println("Tempt in celcius is " + suhu);
+
+                double phytagoras = cm.hypotenuse(10,4);
+                System.out.println("Hypotenuse is " + phytagoras);
+
+                int dadu = cm.roll();
+                System.out.println("The sum od the dice value is " + dadu);
+    }
+}
